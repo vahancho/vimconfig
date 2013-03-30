@@ -2,7 +2,7 @@ vimconfig
 =========================================
 Custom Vim configuration example (Windows)
 
-Installed plugins:
+Installed plugins
 -----------------
 
 * Autoclose (to close braces, quotes, etc.)
@@ -19,11 +19,11 @@ Installation
 2. Clone vimconfig (git clone git://github.com/vahancho/vimconfig.git)
 3. Create a link to our custom vimfiles in vim directory directory. For example: 
 
-    mklink /D "C:\Program Files (x86)\Vim\vimfiles" "D:\projects\vimconfig\vimfiles"
+    'mklink /D "C:\Program Files (x86)\Vim\vimfiles" "D:\projects\vimconfig\vimfiles"'
 
 4. Create a link to our custom vimrc file in vim directory. For example: 
 
-    mklink "C:\Program Files (x86)\Vim\_vimrc" "D:\projects\vimconfig\.vimrc"
+    'mklink "C:\Program Files (x86)\Vim\_vimrc" "D:\projects\vimconfig\.vimrc"'
 
 5. Install Ecuberant Ctags (http://ctags.sourceforge.net/)
 
