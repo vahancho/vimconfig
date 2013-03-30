@@ -11,6 +11,7 @@ Installed plugins
 * Powerline (status bar)
 * NERDTree (File system tree)
 * MRU (The list of recently opened files)
+* snipMate (Code snippets)
 
 Installation
 ------------
