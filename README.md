@@ -26,4 +26,11 @@ Installation
     mklink "C:\Program Files (x86)\Vim\_vimrc" "D:\projects\vimconfig\.vimrc"
 
 5. Install Ecuberant Ctags (http://ctags.sourceforge.net/)
+6. Create tag files at tags directory. For example for Qt4:
 
+    cd <vimfiles>
+    mkdir tags
+    cd tags
+    ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ -f qt4 /usr/include/qt4/ # for QT4 
+
+7. Generate documentation tags for all plugins with ':Helptags' command.
