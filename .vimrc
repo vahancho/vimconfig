@@ -29,6 +29,9 @@ filetype plugin indent on
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Hide the tool bar
+:set guioptions-=T
+
 " Tab complition menu 
 set wildmenu
 
