@@ -1,0 +1,16 @@
+[submodule "vimfiles/bundle/mru.vim"]
+	path = vimfiles/bundle/mru.vim
+	url = git://github.com/vim-scripts/mru.vim.git
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/OmniCppComplete"]
+	path = vimfiles/bundle/OmniCppComplete
+	url = git://github.com/vim-scripts/OmniCppComplete.git
+
+[submodule "vimfiles/bundle/snipMate"]
+	path = vimfiles/bundle/snipMate
+	url = git://github.com/vim-scripts/snipMate.git
+[submodule "vimfiles/bundle/vim-powerline"]
+	path = vimfiles/bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
