@@ -17,7 +17,14 @@ Installation
 ------------
 
 1. Install Vim
-2. Clone vimconfig (git clone git://github.com/vahancho/vimconfig.git)
+2. Clone vimconfig. For example:
+
+    `git clone git://github.com/vahancho/vimconfig.git`
+    
+    `git submodule init`
+    
+    `git submodule update`
+
 3. Create a link to our custom vimfiles in vim directory directory. For example: 
 
     `mklink /D "C:\Program Files (x86)\Vim\vimfiles" "D:\projects\vimconfig\vimfiles"`
