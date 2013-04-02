@@ -95,6 +95,8 @@ autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Open NERDTree with shortcut
 map <C-n> :NERDTreeToggle<CR>
+" Make bookmarks view visible by default.
+let NERDTreeShowBookmarks=1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "               Auto completion Settings (Omnicppcomplete)
