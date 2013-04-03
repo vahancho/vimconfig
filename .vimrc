@@ -25,6 +25,8 @@ filetype plugin indent on
 " Create a new tab
 :map <F2> :tabnew<CR>
 
+:map <F3> :cnext<CR>
+
 " Switch between header/source with F4
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -97,6 +99,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 map <C-n> :NERDTreeToggle<CR>
 " Make bookmarks view visible by default.
 let NERDTreeShowBookmarks=1
+let NERDTreeShowHidden=1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "               Auto completion Settings (Omnicppcomplete)
