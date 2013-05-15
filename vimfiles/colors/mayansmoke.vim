@@ -248,12 +248,13 @@ hi WildMenu     ctermfg=16              ctermbg=117             cterm=NONE
 "   *Error          any erroneous construct
 "   *Todo           anything that needs extra attention
 hi Comment      guifg=#008000           guibg=NONE      gui=italic
+hi Identifier   guifg=black             guibg=NONE      gui=NONE
 hi Number       guifg=black             guibg=NONE      gui=NONE
 hi Constant     guifg=DarkOrange        guibg=NONE      gui=NONE
 hi String       guifg=#000080           guibg=NONE      gui=NONE
 hi Boolean      guifg=IndianRed4        guibg=NONE      gui=NONE
-hi Identifier   guifg=blue1             guibg=NONE      gui=NONE
-hi Function     guifg=blue1             guibg=NONE      gui=NONE
+"hi Function     guifg=blue1             guibg=NONE      gui=NONE
+hi Macro        guifg=#A000A0           guibg=NONE      gui=NONE
 hi Statement    guifg=blue1             guibg=NONE      gui=NONE
 hi Keyword      guifg=blue1             guibg=NONE      gui=NONE
 hi PreProc      guifg=brown3            guibg=NONE      gui=NONE

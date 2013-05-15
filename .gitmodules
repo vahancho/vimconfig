@@ -8,10 +8,6 @@
 	path = vimfiles/bundle/OmniCppComplete
 	url = git://github.com/vim-scripts/OmniCppComplete.git
     ignore = dirty
-[submodule "vimfiles/bundle/snipMate"]
-	path = vimfiles/bundle/snipMate
-	url = git://github.com/vim-scripts/snipMate.git
-    ignore = dirty
 [submodule "vimfiles/bundle/vim-powerline"]
 	path = vimfiles/bundle/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
@@ -29,3 +25,13 @@
 	path = vimfiles/bundle/L9
 	url = git://github.com/vim-scripts/L9.git
     ignore = dirty
+[submodule "vimfiles/bundle/vim-session"]
+	path = vimfiles/bundle/vim-session
+	url = git://github.com/xolox/vim-session.git
+    ignore = dirty
+[submodule "vimfiles/bundle/neocomplcache"]
+	path = vimfiles/bundle/neocomplcache
+	url = git://github.com/Shougo/neocomplcache.git
+[submodule "vimfiles/bundle/neosnippet"]
+	path = vimfiles/bundle/neosnippet
+	url = git://github.com/Shougo/neosnippet.git
