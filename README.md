@@ -9,9 +9,14 @@ Installed plugins
 * Pathogen (plugin manager)
 * Omnicppcomplete (c++ autocomplete)
 * Powerline (status bar)
-* NERDTree (File system tree)
+* NERDTree (file system tree)
 * MRU (The list of recently opened files)
-* snipMate (Code snippets)
+* snipMate (code snippets)
+* session (save and restore sessions)
+* T-Comment (handle code comments)
+* Neosnippet (code snippets)
+* Neocomplcache (autocompletion)
+* TagHighlight (tags highlighting)
 
 Setup
 -----
